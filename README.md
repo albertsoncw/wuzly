@@ -168,5 +168,11 @@
     <a href="Form1.html">Contact Us!</a>&nbsp;
       <p style="clear: both;">
     <i>copyright&copy; 2022 Tarkov Beginners </i>
-
-</body>
+![map3](https://user-images.githubusercontent.com/104250781/164887012-b54d9428-9a9c-4771-b160-92d2ed6c32d0.jpg)
+![map4](https://user-images.githubusercontent.com/104250781/164887015-75411618-2e5d-43cf-8ba0-be935454c443.png)
+![pmc](https://user-images.githubusercontent.com/104250781/164887016-b4fe34b1-53f5-4334-a1ed-7b1174c5498b.jpg)
+![scav](https://user-images.githubusercontent.com/104250781/164887017-5046d6ed-a8c5-45e8-95ef-4cc52a201f0f.jpg)
+![map1](https://user-images.githubusercontent.com/104250781/164887026-31682e11-4832-4507-8f80-69eeb8fa600e.png)
+![map2](https://user-images.githubusercontent.com/104250781/164887028-b0654652-c63b-4d98-86f9-a26c6dbb9b64.jpg)
+![homepage2](https://user-images.githubusercontent.com/104250781/164887037-24b77dff-6aab-4fc7-9150-41544e3672b5.jpg)
+![homepage](https://user-images.githubusercontent.com/104250781/164887044-d20cb80c-48cf-49b9-9bf1-92d9f1cc4e8c.jpg)
