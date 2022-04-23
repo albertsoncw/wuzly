@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\homepage.html" />
+    <Content Remove="wwwroot\maps.html" />
+    <Content Remove="wwwroot\player+ai.html" />
+    <Content Remove="wwwroot\column file.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\homepage.html" />
+    <None Include="wwwroot\maps.html" />
+    <None Include="wwwroot\player+ai.html" />
+  </ItemGroup>
+</Project>
