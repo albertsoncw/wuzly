@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>function myFunction() {
+            document.getElementById("demo").innerHTML = "New Player Helpdesk: (804) 556 - 8889";
+        }</script>
+    <script>function myFunction() {
+            var x = document.getElementById("hide");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }</script>
+    <style>
+        type="text/css" >
+        h1 {
+        }
+
+        h2 {
+            font-size: x-large;
+            border-color: silver;
+            border-width: 5px;
+            border-style: inset;
+        }
+
+        h3 {
+            font-size: x-large;
+        }
+
+        h4 {
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        body {
+            background-color: cadetblue;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        a:link {
+            color: Black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: navy;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-width:800px) {
+            .main {
+                width: 80%;
+                padding: 0;
+            }
+
+            .right {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            .menu, .main, .right {
+                width: 100%;
+            }
+
+            img {
+                max-width: 100%;
+                object-fit: contain;
+            }
+    </style>
+    <link rel="icon" type="image/x-icon" href="Player.ico">
+</head>
+<body>
+    <h1 style="color:black;padding:30px;">Escape From Tarkov Beginners Guide</h1>
+    <a href="homepage.html">Homepage</a>&nbsp;
+    <a href="maps.html">Maps</a>&nbsp;
+    <a href="Form1.html">Contact Us!</a>&nbsp;
+    <h2>Deciding whether to play as a PMC or a Scav.</h2>
+    <p>
+        When you first enter the world of Tarkov you will be given the option to go in as a
+        PMC (player made character) or a Scav (a player with a random loadout droped in a random location
+        and is friendly with AI). Here we will list below the advantages and disadvantages to each play style below.
+    </p>
+    <p style="clear: both;">
+        <div id="hide" class="row">
+            <div class="column" style="background-color:lightcyan;">
+                <h4>PMC</h4>
+                <figure>
+                    <img src='pmc.jpg' width="400" height="200" alt='pmc' />
+                </figure>
+                <p>Advantages</p>
+                <ul>
+                    <li>Gear and loadout customization</li>
+                    <li>Keep level xp and stat increases</li>
+                    <li>Create a hideout to boost your character's stats</li>
+                </ul>
+                <p>Disadvantages</p>
+                <ul>
+                    <li>Can lose all loot you enter a raid with</li>
+                    <li>AI automatically are agro'd toward you</li>
+                </ul>
+            </div>
+            <div class="column" style="background-color:darkcyan;">
+                <h4>Scav</h4>
+                <figure>
+                    <img src='scav.jpg' width="400" height="200" alt='scav' />
+                </figure>
+                <p>Advantages</p>
+                <ul>
+                    <li>No more gear fear!</li>
+                    <li>AI will not attack you unless you attack them first</li>
+                    <li>Chance to spawn in with rare and expensive loot</li>
+                </ul>
+                <p>Disadvantages</p>
+                <ul>
+                    <li>XP is not saved</li>
+                    <li>Loadout is usually weak or unbalanced</li>
+                </ul>
+            </div>
+        </div>
+        <button onclick="myFunction()">Minimize Comparisons</button>
+        <h3>Conclusion </h3>
+<p id="sizeup">
+        Whether when you start the game you decide to play as a PMC or a Scav you will have fun either way.
+        Now that you have a list of advantages and disadvantages choose which one you would like to begin with first. As a rule of thumb
+        though, players tend to start as a scav so they can learn the game without fear of losing
+        their precious loot in the process.
+    </p>
+    <button type="button" onclick="document.getElementById('sizeup').style.fontSize='x-large'">Read conclusion easier</button>
+    <br />
+    <br />
+    <div class="dropdown">
+        <button class="dropbtn">Links To Our Other Pages!</button>
+        <div class="dropdown-content">
+            <a href="homepage.html">Maps</a>
+            <a href="maps.html">Players&AI</a>
+        </div>
+    </div>
+    <p id="demo">
+        If you are having problems with the guide or just want to ask questions,
+        please contact us at info@beginnertarkov.com.
+        Telephone: (804) 223 - 5556
+    </p>
+    <button type="button" onclick="myFunction()">New Player Helpdesk #</button>
+    <p>Our contact link below!</p>
+    <a href="Form1.html">Contact Us!</a>&nbsp;
+    <p style="clear: both;">
+        <i>copyright&copy; 2022 Tarkov Beginners </i>
+
+</body>
+</html>
